@@ -67,6 +67,8 @@ yes_button.addEventListener('click', () => {
     // hide buttons div
     let buttons = document.getElementsByClassName('buttons')[0];
     buttons.style.display = "none";
+    let question = document.getElementById('question-heading');
+    question.style.display = "none";
     // show message div
     let message = document.getElementsByClassName('message')[0];
     message.style.display = "block";
